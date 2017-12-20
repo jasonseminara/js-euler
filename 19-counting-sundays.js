@@ -51,9 +51,9 @@ function sundayMonthsInRange(start, end, offset=1) {
     })
   }
 
-  /* we've included 1900 to count properly, but we don't want it in our results */
-  return sundays.filter(day => day > 364).length;
+  return sundays;
 }
 
 
-console.log(sundayMonthsInRange(1900, 2000));
+/* we've included 1900 to count properly, but we don't want it in our results */
+console.log(sundayMonthsInRange(1900, 2000).filter(day => day > 364).length);
