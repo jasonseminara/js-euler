@@ -1,0 +1,27 @@
+{
+  "name": "js-euler",
+  "version": "1.0.0",
+  "description": "A collection of Euler solutions in JavaScript",
+  "main": "19-counting-sundays.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonseminara/js-euler.git"
+  },
+  "keywords": [],
+  "author": "Jason Seminara <jseminara@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonseminara/js-euler/issues"
+  },
+  "homepage": "https://github.com/jasonseminara/js-euler#readme",
+  "dependencies": {
+    "eslint": "^4.13.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
